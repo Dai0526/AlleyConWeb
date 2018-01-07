@@ -172,26 +172,30 @@ jQuery(document).on('ready', function() {
 	_tg_themescrollbar.mCustomScrollbar({
 		axis:"y",
 	});
-	/* -------------------------------------
-			Google Map
-	-------------------------------------- */
-	var _tg_locationmap = jQuery("#tg-locationmap");
-	_tg_locationmap.gmap3({
-		marker: {
-			address: "The Times Center, West 41st Street, New York, NY",
-			options: {
-				title: "The Times Center",
-				
-			}
-		},
-		map: {
-			options: {
-				zoom: 16,
-				scrollwheel: false,
-				disableDoubleClickZoom: true,
-			}
-		}
-	});
+/*-------------------------------------
+     Google Map
+     -------------------------------------*/
+    if ($('#googleMap').length) {
+        var initialize = function () {
+            var mapOptions = {
+                zoom: 17,
+                scrollwheel: false,
+                navigationControl: false,
+                mapTypeControl: false,
+                scaleControl: false,
+                center: new google.maps.LatLng(40.755934,-73.991257)
+            };
+            var map = new google.maps.Map(document.getElementById("googleMap"),
+                mapOptions);
+            var marker = new google.maps.Marker({
+                position: map.getCenter(),
+                animation: google.maps.Animation.BOUNCE,
+                icon: 'images/mapmarker.png',
+                map: map
+            });
+        }
+        google.maps.event.addDomListener(window, "load", initialize);
+    }
 
 	
 	/* -------------------------------------
