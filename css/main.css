@@ -1559,7 +1559,7 @@ li.tg-rss a{background:#ff6600;}
 /*==============================================
 			Feature Event Style					
 ==============================================*/
-.tg-bgfeatureevent{background-image: url(../images/bg-parallax/bg-parallax-02.jpg);}
+.tg-bgfeatureevent{background-image: url(../images/about3.jpg);}
 .tg-featuredevent{
 	width:100%;
 	float:left;
@@ -2151,7 +2151,7 @@ li.tg-rss a{background:#ff6600;}
 /*==============================================
 			Sponsers Style						
 ==============================================*/
-.tg-bgsponser{background-image: url(../images/bg-parallax/bg-parallax-04.jpg);}
+.tg-bgsponser{background-image: url(../images/about4.jpg);}
 .tg-sponsers{
 	width:100%;
 	float:left;
@@ -2189,6 +2189,56 @@ li.tg-rss a{background:#ff6600;}
 	filter: grayscale(0);
 }
 .tg-bgsponser .tg-btn{
+	padding:0;
+	clear:both;
+	width:200px;
+	display:block;
+	color:#444349;
+	margin:0 auto;
+	background:#fff;
+}
+
+/*==============================================
+			Organizer Style						
+==============================================*/
+.tg-bgorganizer{background-image: url(../images/about5.jpg);}
+.tg-organizer{
+	width:100%;
+	float:left;
+	list-style:none;
+	padding:0 0 15px;
+}
+.tg-organizer li{
+	width:25%;
+	float:left;
+	padding:15px;
+	list-style-type:none;
+}
+.tg-organizer{
+	margin:0;
+	width:100%;
+	float:left;
+	background:#fff;
+}
+.tg-organizer a{
+	height:150px;
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.tg-organizer a img{
+	opacity: 1;
+	display: block;
+	-webkit-filter: grayscale(1);
+	filter: grayscale(1);
+}
+.tg-organizor:hover a img{
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+.tg-organizer .tg-btn{
 	padding:0;
 	clear:both;
 	width:200px;
@@ -2585,7 +2635,7 @@ body.tg-homeone .tg-themescrollbar{height:265px;}
 /*==============================================
 			Footer Style						
 ==============================================*/
-.tg-bgtwitter{background-image: url(../images/bg-parallax/bg-parallax-07.jpg);}
+.tg-bgtwitter{background-image: url(../images/footer.jpg);}
 .tg-bgparallax.tg-bgtwitter:before{
 	background:
 		-moz-linear-gradient(top,
@@ -2640,12 +2690,11 @@ body.tg-homeone .tg-themescrollbar{height:265px;}
 .tg-foorterbar{
 	width:100%;
 	float:left;
-	padding:33px 0;
+	padding:10px 0;
 	background:#444349;
 }
 .tg-copyrights{
 	margin:0;
-	float:left;
 	color:#fff;
 	padding:19px 0;
 	font-size:14px;
@@ -2662,6 +2711,69 @@ body.tg-homeone .tg-themescrollbar{height:265px;}
 	float:none;
 	margin:0 auto;
 	display:block;
+}
+#section-contact {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.venue-info {
+  color: #fff;
+}
+
+.venue-info h2 {
+  color: #fff;
+  
+  font-size: 25px;
+}
+
+.venue-info h4 {
+  color: #eee;
+  font-weight: normal!important;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.venue-info p {
+  color: #fff;
+  margin-top: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.venue-location {
+  color: #fff;
+  padding-left: 100px;
+}
+
+.venue-location i,
+.venue-info i {
+  font-size: 40px;
+  border: 2px solid#eee;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.venue-location h2 {
+
+  color: #fff;
+  font-size: 20px;
+}
+
+.venue-location p {
+  margin-bottom: 10px;
+}
+
+.venue-location a.info {
+  border: 2px solid#fff;
+  padding: 7px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-size: 14px;
 }
 /* ====================================================================================
 			Inner Pages Start
