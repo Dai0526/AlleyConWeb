@@ -58,18 +58,18 @@
 								</div>
 								<div id="tg-navigation" class="collapse navbar-collapse tg-navigation">
 									<ul>
-										<li><a href="venues.html">About</a></li>
-										<li><a href="venues.html">Agenda</a></li>
-										<li><a href="venues.html">Speaker</a></li>
-										<li><a href="venues.html">Organizer</a></li>'
-										<li><a href="venues.html">Gallery</a></li>
-										<li><a href="venues.html">Sponsor</a></li>
-										<li><a href="venues.html">Contact</a></li>
+										<li><a href="#tg-aboutus">About</a></li>
+										<li><a href="#tg-agenda">Agenda</a></li>
+										<li><a href="#tg-speaker">Speaker</a></li>
+										<li><a href="#tg-organizer">Organizer</a></li>'
+										<li><a href="#tg-gallery">Gallery</a></li>
+										<li><a href="#tg-sponsor">Sponsor</a></li>
+										<li><a href="#tg-contact">Contact</a></li>
 										
 									</ul>
 								</div>
 							</nav>
-							<a class="tg-btn tg-btnbookseat" href="javascript:void(0);">Tiackt<span>Total 375 Seats</span></a>
+							<a class="tg-btn tg-btnbookseat" href="#tg-ticket">Tickt<span>Total 375 Seats</span></a>
 						</div>
 					</div>
 				</div>
@@ -225,8 +225,8 @@
 										</div>
 									</div>
 									<div class="tg-btnarea">
-										<a class="tg-btn" href="#">View Schedule</a>
-										<a class="tg-btn" href="#">View Speakers</a>
+										<a class="tg-btn" href="#tg-agenda">View Schedule</a>
+										<a class="tg-btn" href="#tg-speaker">View Speakers</a>
 									</div>
 								</div>
 							</div>
@@ -286,7 +286,7 @@
 			<!--************************************
 					Speakers Start				
 			*************************************-->
-			<section class="tg-sectionspace tg-haslayout">
+			<section id="tg-speaker" class="tg-sectionspace tg-haslayout">
 				<div class="container">
 					<div class="row">
 						<div class="tg-shortcode tg-speakershortcode">
@@ -433,7 +433,7 @@
 			<!--************************************
 					Event Schedule Start			
 			*************************************-->
-			<section class="tg-sectionspace tg-haslayout">
+			<section id="tg-agenda" class="tg-sectionspace tg-haslayout">
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-offset-0 col-xs-12 col-sm-offset-0 col-sm-12 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
@@ -628,7 +628,7 @@
 			<!--************************************
 					Organizers					
 			*************************************-->
-						<section class="tg-sectionspace tg-haslayout tg-bgparallax tg-bgorganizer">
+			<section id="tg-organizer" class="tg-sectionspace tg-haslayout tg-bgparallax tg-bgorganizer">
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-offset-0 col-xs-12 col-sm-offset-0 col-sm-12 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
@@ -693,7 +693,7 @@
 			<!--************************************
 					Gallery Start					
 			*************************************-->
-			<section class="tg-sectionspace tg-haslayout">
+			<section id="tg-gallery" class="tg-sectionspace tg-haslayout">
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-offset-0 col-xs-12 col-sm-offset-0 col-sm-12 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
@@ -921,7 +921,7 @@
 			<!--************************************
 					Sponser End						
 			*************************************-->
-			<section class="tg-sectionspace tg-haslayout tg-bgparallax tg-bgsponser">
+			<section id="tg-sponsor" class="tg-sectionspace tg-haslayout tg-bgparallax tg-bgsponser">
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-offset-0 col-xs-12 col-sm-offset-0 col-sm-12 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
@@ -1001,7 +1001,7 @@
 			<!--************************************
 					Price Plan Start				
 			*************************************-->
-			<section class="tg-sectionspace tg-haslayout">
+			<section id="tg-ticket" class="tg-sectionspace tg-haslayout">
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-offset-0 col-xs-12 col-sm-offset-0 col-sm-12 col-md-offset-2 col-md-8 col-lg-offset-2 col-lg-8">
@@ -1107,7 +1107,7 @@
 			<!--************************************
 					Map Start						
 			*************************************-->
-			<section class="tg-haslayout">
+			<section id="tg-contact" class="tg-haslayout">
 				<div class="container-fluid">
 					<div class="row">
 						<div id="tg-locationmap" class="tg-locationmap tg-map"></div>
@@ -1180,6 +1180,24 @@
 </script>
 	<script src="js/vendor/jquery-library.js"></script>
 	<script src="js/vendor/bootstrap.min.js"></script>
+	<script type="text/javascript">
+	// create the back to top button
+		$('body').prepend('<a href="#" class="back-to-top">Back to Top</a>');
+		var amountScrolled = 300;
+		$(window).scroll(function() {
+			if ( $(window).scrollTop() > amountScrolled ) {
+				$('a.back-to-top').fadeIn('slow');
+			} else {
+				$('a.back-to-top').fadeOut('slow');
+			}
+		});
+		$('a.back-to-top, a.simple-back-to-top').click(function() {
+			$('html, body').animate({
+				scrollTop: 0
+			}, 700);
+			return false;
+		});
+	</script>
 	<script src="https://maps.google.com/maps/api/js?key=AIzaSyD1G9q3ZtLASXXTTKNUYOgvIyTaoMylNtU&language=en"></script>
 	<script src="js/customScrollbar.min.js"></script>
 	<script src="js/packery.pkgd.min.js"></script>
