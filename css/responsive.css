@@ -482,8 +482,8 @@
 	}
 	.tg-bannerimg figcaption {height: 700px;}
 	.tg-eventcounter span:last-child {
-		right: -5px;
-		bottom: -10px;
+		right: 0px;
+		bottom: -5px;
 	}
 	.tg-eventcounter span {
 		font-size: 35px;
