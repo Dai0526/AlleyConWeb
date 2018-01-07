@@ -178,10 +178,10 @@ jQuery(document).on('ready', function() {
 	var _tg_locationmap = jQuery("#tg-locationmap");
 	_tg_locationmap.gmap3({
 		marker: {
-			address: "1600 Elizabeth St, Melbourne, Victoria, Australia",
+			address: "The Times Center, West 41st Street, New York, NY",
 			options: {
-				title: "Bee Vibrant",
-				icon: "images/map-marker2.png",
+				title: "The Times Center",
+				
 			}
 		},
 		map: {
@@ -192,6 +192,8 @@ jQuery(document).on('ready', function() {
 			}
 		}
 	});
+
+	
 	/* -------------------------------------
 			TESTIMONIAL SLIDER
 	-------------------------------------- */
