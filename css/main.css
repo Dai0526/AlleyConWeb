@@ -1193,7 +1193,7 @@ li.tg-rss a{background:#ff6600;}
 		rgba(217,8,69,0.55) 60%);
 	background:
 		-webkit-linear-gradient(top,
-		rgba(68,67,73,0.85) 0%,
+		rgba(68,67,73,0.45) 0%,
 		rgba(70,66,73,0.55) 65%,
 		rgba(217,8,69,0.55) 60%);
 	background:
@@ -1211,18 +1211,31 @@ li.tg-rss a{background:#ff6600;}
 .tg-slidercontent > span{
 	color:#fff;
 	display:block;
-	margin:0 0 35px;
-	font-size:60px;
+	margin:0 0 25px;
+	padding-top: -100px;
+	font-size:35px;
 	font-weight:600;
 	line-height:55px;
 }
+
+
 .tg-slidercontent h1{
 	color:#fff;
-	font-size:90px;
+	font-size:70px;
 	margin:0 0 21px;
 	font-weight:bold;
 	line-height:90px;
 }
+
+.fstslide h1{
+	color:#fff;
+	font-size:100px;
+	margin:0 0 21px;
+	font-weight:bold;
+	line-height:90px;
+	padding-top: -100px;
+}
+
 .tg-slidercontent h1 span{display:block;}
 .tg-upcomingeventcounter{
 	width:100%;
@@ -1238,7 +1251,7 @@ li.tg-rss a{background:#ff6600;}
 	width:100%;
 	float:left;
 	overflow:hidden;
-	background:#fff;
+	background:rgba(255,255,255, 0.90);
 	min-height:155px;
 	position:relative;
 }
@@ -1395,22 +1408,22 @@ li.tg-rss a{background:#ff6600;}
 	position:absolute;
 	background:
 		-moz-linear-gradient(top,
-		rgba(217,8,69,0.8) 0%,
-		rgba(217,8,69,0.8) 1%,
-		rgba(217,8,69,0.8) 100%);
+		rgba(196, 216, 226,0.8) 0%,
+		rgba(196, 216, 226,0.8) 1%,
+		rgba(196, 216, 226,0.8) 100%);
 	background:
 		-webkit-linear-gradient(top,
-		rgba(217,8,69,0.8) 0%,
-		rgba(217,8,69,0.8) 1%,
-		rgba(217,8,69,0.8) 100%);
+		rgba(100, 173, 242,0.8) 0%,
+		rgba(100, 173, 242,0.8) 1%,
+		rgba(100, 173, 242,0.8) 100%);
 	background:
 		linear-gradient(to bottom,
-		rgba(217,8,69,0.8) 0%,
-		rgba(217,8,69,0.8) 1%,
-		rgba(217,8,69,0.8) 100%);
+		rgba(100, 173, 242,0.8) 0%,
+		rgba(100, 173, 242,0.8) 1%,
+		rgba(100, 173, 242,0.8) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccd90845', endColorstr='#ccd90845',GradientType=0 );
 }
-.tg-bgcounter{background-image: url(../images/bg-parallax/banner_bg_1.jpg);}
+.tg-bgcounter{background-image: url(../images/bg-parallax/bg-parallax-01.jpg);}
 .tg-statisticscounters{
 	width:100%;
 	float:left;
