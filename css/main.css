@@ -1285,7 +1285,7 @@ li.tg-rss a{background:#ff6600;}
 	font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 .tg-eventcounter span:first-child{
-	top:10px;
+	top:20px;
 	left:10px;
 	font-size:24px;
 	line-height:24px;
@@ -2186,7 +2186,7 @@ li.tg-rss a{background:#ff6600;}
 }
 .tg-sponsers h5{
 	color:#fff;
-	
+
 }
 .tg-sponder{
 	margin:0;
@@ -2808,7 +2808,7 @@ body.tg-homeone .tg-themescrollbar{height:265px;}
 .tg-innerbanner{
 	min-height:320px;
 	position:relative;
-	background-image: url(../images/innerbanner-img.jpg);
+	background-image: url(../images/about-team.jpg);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -5032,4 +5032,56 @@ body.tg-comingsoonpage .tg-foorterbar .tg-socialicons{padding:0;}
   .google-map-area {
     margin-bottom: 5px;
   }
+}
+
+
+/*/============================
+	SECTION BLOG
+===================================*/
+
+.download-wrap {
+	margin-bottom: 60px;
+	width: 75%;
+	padding-left: 0px;
+}
+
+.download-wrap h2 {
+	text-transform: none;
+}
+
+.download-wrap a.btn {
+	margin-top: 10px;
+}
+
+.download-content {
+	margin-top: 40px;
+}
+
+.blog-info h4 {
+	margin-top: 25px;
+	color: #fff;
+}
+
+.blog-info p {
+	margin: 20px 0px 30px;
+}
+
+.blogTime {
+	color: #999;
+	font-weight: normal;
+	font-size: 18px;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #eee;
+}
+
+.blogTime span {
+	color: #fff;
+}
+
+.read-more {
+	border: 1px solid#ddd;
+	padding: 10px 15px;
+	color: #fff;
+	margin-top: 20px;
+	background: #eee;
 }
