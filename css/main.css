@@ -708,8 +708,8 @@ li.tg-rss a{background:#ff6600;}
 .tg-sectionheading{
 	width:100%;
 	float:left;
-	margin:0 0 40px;
-	padding:0 0 13px;
+	margin:0 0 0;
+	padding:0 0 5px;
 	position:relative;
 }
 .tg-sectionheading:after,
