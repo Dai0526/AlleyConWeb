@@ -2134,16 +2134,16 @@ li.tg-rss a{background:#ff6600;}
 	position:absolute;
 	background:
 		-moz-linear-gradient(top,
-		rgba(217,8,69,0.8) 0%,
-		rgba(217,8,69,0.8) 100%);
+		rgba(145,196,248,0.8) 0%,
+		rgba(145,196,248,0.8) 100%);
 	background:
 		-webkit-linear-gradient(top,
-		rgba(217,8,69,0.8) 0%,
-		rgba(217,8,69,0.8) 100%);
+		rgba(145,196,248,0.8) 0%,
+		rgba(145,196,248,0.8) 100%);
 	background:
 		linear-gradient(to bottom,
-		rgba(217,8,69,0.8) 0%,
-		rgba(217,8,69,0.8) 100%);
+		rgba(145,196,248,0.8) 0%,
+		rgba(145,196,248,0.8) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccd90845', endColorstr='#ccd90845',GradientType=0 );
 }
 .tg-masonrygrid:hover .tg-galleryhover{top:0;}
