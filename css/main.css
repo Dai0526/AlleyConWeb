@@ -1485,10 +1485,11 @@ li.tg-rss a{background:#ff6600;}
 	font-size:60px;
 	line-height:60px;
 }
-.tg-statheading h3{
+.tg-statheader h2{
 	color:#fff;
 	font-weight: 700;
-	padding-top: 50px;
+	padding-top: 120px;
+	margin-bottom: 30px;
 }
 /*==============================================
 			Speakers Style						
