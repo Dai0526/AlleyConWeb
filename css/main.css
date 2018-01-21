@@ -1447,6 +1447,7 @@ li.tg-rss a{background:#ff6600;}
 .tg-statisticscounters{
 	width:100%;
 	float:left;
+	margin-top: -80px;
 }
 .tg-counterholder{
 	width:25%;
@@ -1484,11 +1485,10 @@ li.tg-rss a{background:#ff6600;}
 	font-size:60px;
 	line-height:60px;
 }
-.tg-statheader h2{
+.tg-statheading h3{
 	color:#fff;
 	font-weight: 700;
 	padding-top: 50px;
-	margin-bottom: -30px;
 }
 /*==============================================
 			Speakers Style						
