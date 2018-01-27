@@ -69,12 +69,25 @@
 	overflow: hidden;
 }
 .tg-masonrygrid2{
-	width:100%;
-	max-width: 285px;
+	width:25%;
 	float:left;
-	padding:5px;
-	margin-left: 10px;
+	padding:-5px;
 }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1600px) {
+    	.tg-masonrygrid2 {
+    		width:25%;
+    	}
+    }
+ /* (1366x768) Landscape */
+@media only screen and (min-device-width: 1px) and (max-device-width: 375px) {
+        .tg-masonrygrid2 {
+    		width:100%;
+    	}
+}
+
+
+
 .tg-masonrygrid2 figure{
 	margin:0;
 	width:100%;
