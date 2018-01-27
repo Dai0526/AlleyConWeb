@@ -69,9 +69,11 @@
 	overflow: hidden;
 }
 .tg-masonrygrid2{
-	width:25%;
+	width:100%;
+	max-width: 285px;
 	float:left;
 	padding:5px;
+	margin-left: 10px;
 }
 .tg-masonrygrid2 figure{
 	margin:0;
