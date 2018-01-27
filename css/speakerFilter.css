@@ -1,0 +1,130 @@
+.tg-masnorygallery2{
+	width: 100%;
+	float: left;
+}
+.tg-masonryitem2{padding: 8px;}
+.tg-masonrygridwidthone2{width: 33.33% !important;}
+.tg-masonrygridwidthtwo2{width: 25% !important;}
+.tg-masonrygridwidththree2{width: 50% !important;}
+.tg-gallery2 figure{
+	margin: 0;
+	width: 100%;
+	float: left;
+}
+.tg-masonryitem2 .tg-galleryhover2{background: rgba(0, 0, 0, 0.50);}
+.tg-masonryitem2 .tg-btnexpand2{
+	top: 50%;
+	right: 50%;
+	margin: -25px -25px 0 0;
+}
+
+
+/*==============================================
+			Gallery Style						
+==============================================*/
+.tg-gallerymasnory2{
+	width:100%;
+	float:left;
+}
+.tg-gallery2{
+	width: 100%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.tg-navfilterbale2{
+	width:100%;
+	float:left;
+	font-size:14px;
+	list-style:none;
+	padding:0 0 35px;
+	line-height:52px;
+	text-align:center;
+}
+.tg-navfilterbale2 li{
+	padding:0 3px;
+	line-height:inherit;
+	display:inline-block;
+	list-style-type:none;
+	vertical-align: middle;
+}
+.tg-navfilterbale2 li a{
+	display:block;
+	color:#444349;
+	padding:0 45px;
+	border-radius:5px;
+	background:#f7f7f7;
+}
+.tg-navfilterbale2 li a:hover,
+.tg-navfilterbale2 li a.tg-active{
+	background:#fff;
+	-webkit-box-shadow: 0 0 15px 0 rgba(68,67,73,0.20);
+	box-shadow: 0 0 15px 0 rgba(68,67,73,0.20);
+}
+.tg-galleryfilterable2{
+	width: auto;
+	float: none;
+	clear: both;
+	margin: -5px;
+	overflow: hidden;
+}
+.tg-masonrygrid2{
+	width:25%;
+	float:left;
+	padding:5px;
+}
+.tg-masonrygrid2 figure{
+	margin:0;
+	width:100%;
+	float:left;
+	overflow:hidden;
+}
+.tg-masonrygrid2 figure img{
+	width:100%;
+	height:auto;
+	display:block;
+}
+.tg-galleryhover2{
+	left:0;
+	top:100%;
+	content:'';
+	width:100%;
+	height:100%;
+	padding:30px;
+	position:absolute;
+	background:
+		-moz-linear-gradient(top,
+		rgba(145,196,248,0.8) 0%,
+		rgba(145,196,248,0.8) 100%);
+	background:
+		-webkit-linear-gradient(top,
+		rgba(145,196,248,0.8) 0%,
+		rgba(145,196,248,0.8) 100%);
+	background:
+		linear-gradient(to bottom,
+		rgba(145,196,248,0.8) 0%,
+		rgba(145,196,248,0.8) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccd90845', endColorstr='#ccd90845',GradientType=0 );
+}
+.tg-masonrygrid2:hover .tg-galleryhover2{top:0;}
+.tg-galleryhover2 .tg-leftarea2{
+	z-index:3;
+	position:relative;
+}
+.tg-galleryhover2 .tg-leftarea2 time,
+.tg-galleryhover2 .tg-leftarea2 .tg-title2 h2{color:#fff;}
+.tg-btnexpand{
+	z-index:3;
+	right:30px;
+	width:50px;
+	bottom:30px;
+	height:50px;
+	color:#444349;
+	display:block;
+	font-size:20px;
+	background:#fff;
+	line-height:50px;
+	border-radius:50%;
+	position:absolute;
+	text-align:center;
+}
