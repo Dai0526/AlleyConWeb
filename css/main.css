@@ -2109,7 +2109,6 @@ li.tg-rss a{background:#ff6600;}
 	display:block;
 }
 .tg-galleryhover{
-	left:0;
 	top:100%;
 	content:'';
 	width:100%;
@@ -2118,16 +2117,16 @@ li.tg-rss a{background:#ff6600;}
 	position:absolute;
 	background:
 		-moz-linear-gradient(top,
-		rgba(145,196,248,0.8) 0%,
-		rgba(145,196,248,0.8) 100%);
+		rgba(21,122,191,0.8) 0%,
+		rgba(21,122,191,0.8) 100%);
 	background:
 		-webkit-linear-gradient(top,
-		rgba(145,196,248,0.8) 0%,
-		rgba(145,196,248,0.8) 100%);
+		rgba(21,122,191,0.8) 0%,
+		rgba(21,122,191,0.8) 100%);
 	background:
 		linear-gradient(to bottom,
-		rgba(145,196,248,0.8) 0%,
-		rgba(145,196,248,0.8) 100%);
+		rgba(21,122,191,0.8) 0%,
+		rgba(21,122,191,0.8) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccd90845', endColorstr='#ccd90845',GradientType=0 );
 }
 .tg-masonrygrid:hover .tg-galleryhover{top:0;}
