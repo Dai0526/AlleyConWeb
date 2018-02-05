@@ -183,7 +183,7 @@ jQuery(document).on('ready', function() {
                 navigationControl: false,
                 mapTypeControl: false,
                 scaleControl: false,
-                center: new google.maps.LatLng(40.755934,-73.991257)
+                center: new google.maps.LatLng(40.756040, -73.989068)
             };
             var map = new google.maps.Map(document.getElementById("googleMap"),
                 mapOptions);
