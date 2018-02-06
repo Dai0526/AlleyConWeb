@@ -2183,8 +2183,8 @@ li.tg-rss a{background:#ff6600;}
 @media (min-width: 480px) and (max-width: 3000px) {
 	.tg-Marquee{
 		margin:0;
-		margin-left: 25%;
-		width:50%;
+		margin-left: 30%;
+		width:40%;
 		float:left;
 		background:#fff;
 	}
