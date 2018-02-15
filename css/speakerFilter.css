@@ -80,7 +80,7 @@
     	}
     }
  /* (1366x768) Landscape */
-@media only screen and (min-device-width: 1px) and (max-device-width: 375px) {
+@media only screen and (min-device-width: 1px) and (max-device-width: 420px) {
         .tg-masonrygrid2 {
     		width:100%;
     	}
