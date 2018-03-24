@@ -5145,3 +5145,33 @@ body.tg-comingsoonpage .tg-foorterbar .tg-socialicons{padding:0;}
 }
 
 
+iframe {
+	border: none;
+	float: left;
+	width: 100%;
+}
+
+/*===============
+  live streaming
+=================*/
+
+@media (min-width: 481px) and (max-width: 3000px) {
+	.live_stream{
+		width:100%;
+		height:740px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.live_stream {
+		width:100%; 
+		height:500px;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.live_stream {
+		width:100%;
+		height:380px;
+	}
+}
