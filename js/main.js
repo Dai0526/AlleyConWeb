@@ -21,17 +21,17 @@ jQuery(document).on('ready', function() {
 	_tg_homeslider.owlCarousel({
 		items: 1,
 		loop: true,
-		dots: true,
+		dots: false,
 		nav: true,
 		autoplay: false,
 		animateOut: 'fadeOut',
 		navText: [
-			'<i class="icon-arrow-left"></i>',
-			'<i class="icon-arrow-right"></i>',
+			'<i class="icon-arrow-left1"></i>',
+			'<i class="icon-arrow-right1"></i>',
 		],
 		navClass: [
-			'tg-btnroundprev',
-			'tg-btnroundnext'
+			'tg-btnroundprev1',
+			'tg-btnroundnext1'
 		],
 	});
 	/* -------------------------------------
