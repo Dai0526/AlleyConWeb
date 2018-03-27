@@ -23,7 +23,7 @@ jQuery(document).on('ready', function() {
 		loop: true,
 		dots: true,
 		nav: true,
-		autoplay: true,
+		autoplay: false,
 		animateOut: 'fadeOut',
 		navText: [
 			'<i class="icon-arrow-left"></i>',
