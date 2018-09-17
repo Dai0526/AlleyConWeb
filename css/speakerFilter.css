@@ -143,3 +143,113 @@
 	position:absolute;
 	text-align:center;
 }
+
+
+/*==============================================
+			Speaker Static						
+==============================================*/
+.tg-gallerymasnory-static{
+	width:100%;
+	float:left;
+}
+.tg-gallery-static{
+	width: 100%;
+	float: left;
+	position: relative;
+	overflow: hidden;
+}
+.tg-navfilterbale-static{
+	width:100%;
+	float:left;
+	font-size:14px;
+	list-style:none;
+	padding:0 0 35px;
+	line-height:52px;
+	text-align:center;
+}
+.tg-navfilterbale-static li{
+	padding:0 3px;
+	line-height:inherit;
+	display:inline-block;
+	list-style-type:none;
+	vertical-align: middle;
+}
+.tg-navfilterbale-static li a{
+	display:block;
+	color:#444349;
+	padding:0 45px;
+	border-radius:5px;
+	background:#f7f7f7;
+}
+.tg-navfilterbale-static li a:hover,
+.tg-navfilterbale-static li a.tg-active-static{
+	background:#fff;
+	-webkit-box-shadow: 0 0 15px 0 rgba(68,67,73,0.20);
+	box-shadow: 0 0 15px 0 rgba(68,67,73,0.20);
+}
+.tg-galleryfilterable-static{
+	width: auto;
+	float: none;
+	clear: both;
+	margin: -5px;
+	overflow: hidden;
+}
+.tg-masonrygrid-static{
+	width:25%;
+	float:left;
+	padding:5px;
+}
+.tg-masonrygrid-static figure{
+	margin:0;
+	width:100%;
+	float:left;
+	overflow:hidden;
+}
+.tg-masonrygrid-static figure img{
+	width:100%;
+	height:auto;
+	display:block;
+}
+.tg-galleryhover-static{
+	top:100%;
+	content:'';
+	width:100%;
+	height:100%;
+	padding:30px;
+	position:absolute;
+	background:
+		-moz-linear-gradient(top,
+		rgba(21,122,191,0.8) 0%,
+		rgba(21,122,191,0.8) 100%);
+	background:
+		-webkit-linear-gradient(top,
+		rgba(21,122,191,0.8) 0%,
+		rgba(21,122,191,0.8) 100%);
+	background:
+		linear-gradient(to bottom,
+		rgba(21,122,191,0.8) 0%,
+		rgba(21,122,191,0.8) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccd90845', endColorstr='#ccd90845',GradientType=0 );
+}
+.tg-masonrygrid:hover .tg-galleryhover{top:0;}
+.tg-galleryhover-static .tg-leftarea-static{
+	z-index:3;
+	position:relative;
+}
+.tg-galleryhover-static .tg-leftarea-static time,
+.tg-galleryhover-static .tg-leftarea-static .tg-title-static h2{color:#fff;}
+.tg-btnexpand-static{
+	z-index:3;
+	right:30px;
+	width:50px;
+	bottom:30px;
+	height:50px;
+	color:#444349;
+	display:block;
+	font-size:20px;
+	background:#fff;
+	line-height:50px;
+	border-radius:50%;
+	position:absolute;
+	text-align:center;
+}
